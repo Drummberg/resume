@@ -22,28 +22,32 @@ body {
 .about-me-section {
   width: 407px;
   height: 230px;
-  margin: 0 10px 120px 0;
+  margin: 0 10px 130px 0;
 }
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
+  text-transform: uppercase;
+  color: rgb(66, 61, 85);
 }
 .my-name {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 800;
   font-size: 45px;
   line-height: 55px;
-  color: rgb(47, 33, 107);
+  color: rgb(66, 61, 85);
   margin: 20px 0 20px 0;
+  text-transform: uppercase;
 }
 .my-description {
-  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   color: black;
+  width: 75vh;
+  margin: 0;
 }
 .my-projects-section {
   margin: 50px 0 50px 0;
@@ -53,9 +57,10 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
+  color: rgb(66, 61, 85);
+  text-transform: uppercase;
 }
 .projects-content {
-  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -75,10 +80,15 @@ body {
 }
 .projects-text-link {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
   line-height: 24px;
-  color: black;
+  color: rgb(66, 61, 85);
+  text-decoration:none;
+  text-transform: uppercase;
+}
+.link{
+  text-decoration:underline;
+  text-transform:capitalize;
 }
 .projects-text-bracket {
   font-style: normal;
@@ -98,8 +108,9 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  color: #000000;
+  color: rgb(66, 61, 85);
   margin-top: 0px;
+  text-transform: uppercase;
 }
 .work-experience-companies {
   margin: 0 0 20px 0;
@@ -113,6 +124,8 @@ body {
   font-weight: 700;
   line-height: 25px;
   margin: 0 0 10px 0;
+  color: rgb(66, 61, 85);
+  text-transform: uppercase;
 }
 .orange-title {
   color: #fb6d3a;
@@ -150,6 +163,8 @@ body {
   font-style: normal;
   font-weight: 700;
   margin: 0 0 10px 0;
+  color: rgb(66, 61, 85);
+  text-transform: uppercase;
 }
 .my-work-description2 {
   font-size: 14px;
@@ -188,6 +203,8 @@ body {
   font-style: normal;
   font-weight: 700;
   margin: 0 0 10px 0;
+  color: rgb(66, 61, 85);
+    text-transform: uppercase;
 }
 .name-university {
   font-size: 16px;
@@ -195,12 +212,16 @@ body {
   font-weight: 700;
   color: #fb6d3a;
   margin: 10px 0 10px 0;
+  text-transform: uppercase;
+  
 }
 .Finance {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin: 10px 0 10px 0;
+  color: rgb(66, 61, 85);
+    text-transform: uppercase;
 }
 .education-date {
   font-size: 12px;
@@ -214,7 +235,7 @@ body {
 }
 /* sidebar section */
 .sidebar-section {
-  background-color: #1e2939;
+  background-color: #838463;
   width: 370px;
   height: 1240px;
   padding-top: 40px;
@@ -222,13 +243,16 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.foto{
+  margin-left: 40px;
+}
 .contacts-section,
 .tech-skills-section {
-  margin: 50px 0 0 40px;
+  margin: 30px 0 0 40px;
+  
 }
-.soft-skills-section {
-  margin: 40px 0 0 40px;
-}
+
 .sidebar-section-title {
   font-style: normal;
   font-weight: bold;
@@ -236,22 +260,34 @@ body {
   line-height: 27px;
   color: #ffff;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  
 }
 /* contacts section */
 .contacts-section-type {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffff;
   margin-right: 10px;
 }
 .contacts-section-link {
-  color: #80868f;
+  color: #ffffff;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
+  margin: 25px 0 20px 0;
+}
+.town{
+  margin: 0;
+  color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
 }
 /* tech skills section */
 .tech-skills-list {
@@ -259,6 +295,7 @@ body {
 }
 .tech-skills-item {
   color: #fb6d3a;
+ 
 }
 .tech-skills-item-text {
   font-style: normal;
@@ -268,7 +305,9 @@ body {
   color: #ffff;
 }
 /* soft skills section */
-
+.soft-skills-section {
+  margin: 30px 0 0 40px;
+}
 .soft-skills-list {
   padding: 0 0 0 17px;
 }
