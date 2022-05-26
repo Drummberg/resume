@@ -6,10 +6,10 @@ body {
 .main-section {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
-  height: 1319px;
+  width: 1240px;
+  height: 1754px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
-  margin: 40px auto;
+  margin: 0;
 }
 
 /* main content */
@@ -21,9 +21,7 @@ body {
 }
 .about-me-section {
   width: 407px;
-  height: 230px;
-  margin: 0 10px 100px 0;
-}
+  }
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
@@ -43,7 +41,7 @@ body {
 }
 .my-description {
   font-style: normal;
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 400;
   line-height: 24px;
   color: black;
@@ -54,7 +52,7 @@ body {
 .my-description-role {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 24px;
   color: black;
   width: 100%;
@@ -150,7 +148,7 @@ body {
   color: black;
 }
 .my-work-description3 {
-  font-size: 14px;
+  /* font-size: 14px; */
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -162,7 +160,7 @@ body {
 .my-work-description-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 24px;
   color: #000000;
 }
@@ -175,7 +173,7 @@ body {
   text-transform: uppercase;
 }
 .my-work-description2 {
-  font-size: 14px;
+  /* font-size: 14px; */
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -191,7 +189,7 @@ body {
   margin: 0 0 10px 0;
 }
 .my-work-description1 {
-  font-size: 14px;
+  /* font-size: 14px; */
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
@@ -251,16 +249,15 @@ body {
 /* sidebar section */
 .sidebar-section {
   background-color: #838463;
-  width: 370px;
-  height: 1240px;
+  
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 0px;
+  padding-left: 10px;
   padding-right: 0px;
 }
 
 .foto{
-  margin-left: 40px;
+  margin-left: -10px;
 }
 .contacts-section,
 .tech-skills-section {
@@ -314,8 +311,8 @@ body {
 }
 .tech-skills-item-text {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
+  /* font-size: 14px; */
   line-height: 24px;
   color: #ffff;
 }
@@ -332,7 +329,7 @@ body {
 .tech-skills-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 24px;
   color: #ffff;
 }
