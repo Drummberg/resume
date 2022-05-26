@@ -6,7 +6,7 @@ body {
 .main-section {
   display: flex;
   flex-direction: row-reverse;
-  width: 1240px;
+  width: 1220px;
   height: 1754px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
   margin: 0;
