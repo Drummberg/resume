@@ -17,12 +17,12 @@ body {
 .main-content-section {
   width: 650px;
   height: 1200px;
-  padding: 45px 90px;
+  padding: 25px 90px 0 90px;
 }
 .about-me-section {
   width: 407px;
   height: 230px;
-  margin: 0 10px 130px 0;
+  margin: 0 10px 100px 0;
 }
 .about-me-profession {
   font-style: normal;
@@ -43,15 +43,24 @@ body {
 }
 .my-description {
   font-style: normal;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: black;
-  width: 75vh;
+  width: 170%;
   margin: 0;
 }
-.my-projects-section {
-  margin: 50px 0 50px 0;
+
+.my-description-role {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  width: 100%;
+  margin: 0;
 }
+
 .projects-title {
   font-style: normal;
   font-weight: bold;
@@ -99,7 +108,6 @@ body {
 }
 .my-work-experience-section {
   width: 650px;
-  height: 538px;
   left: 498px;
   top: 600px;
 }
@@ -196,8 +204,15 @@ body {
   height: 114px;
   left: 498px;
   top: 1138px;
-  margin: 0 10px 0 0;
+  
 }
+.my-education-goit {
+  height: 114px;
+  left: 498px;
+  top: 1138px;
+  padding: 40px 0 0 0;
+}
+
 .education-title {
   font-size: 22px;
   font-style: normal;
