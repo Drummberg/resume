@@ -134,7 +134,7 @@ body {
   line-height: 25px;
   margin: 0 0 10px 0;
   color: rgb(66, 61, 85);
-  text-transform: uppercase;
+  text-transform:capitalize;
 }
 .orange-title {
   color: #fb6d3a;
@@ -173,7 +173,7 @@ body {
   font-weight: 700;
   margin: 0 0 10px 0;
   color: rgb(66, 61, 85);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .my-work-description2 {
   /* font-size: 14px; */
@@ -223,21 +223,29 @@ body {
     text-transform: uppercase;
 }
 .name-university {
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
   color: #fb6d3a;
   margin: 10px 0 10px 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
   
 }
-.Finance {
+.finance {
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin: 10px 0 10px 0;
   color: rgb(66, 61, 85);
-    text-transform: uppercase;
+  
+}
+.goit {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 10px 0 10px 0;
+  color: #fb6d3a;
+
 }
 .education-date {
   font-size: 12px;
