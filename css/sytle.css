@@ -299,9 +299,25 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
-  margin: 25px 0 20px 0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  
+}
+.contacts-section-link:hover {
+background-color:inherit;
+color: rgb(1, 1, 1);
+text-decoration:underline;
+font-weight: 900;
+transition-duration: 800ms;
+}
+
+.contacts-section-img {
+  position: relative;
+  top: 13px;
+  margin-right: 15px;
+  margin-bottom: 10px;
 }
 .town{
   margin: 0;
