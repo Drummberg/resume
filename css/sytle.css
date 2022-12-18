@@ -96,9 +96,18 @@ body {
   text-decoration:none;
   text-transform: uppercase;
 }
+.projects-text-link:hover{
+  color: #fb6d3a;
+}
+
 .link{
   text-decoration:underline;
   text-transform:capitalize;
+  color: rgb(66, 61, 85);
+}
+
+.link:hover{
+  color:#fb6d3a;
 }
 .projects-text-bracket {
   font-style: normal;
@@ -307,7 +316,7 @@ body {
 }
 .contacts-section-link:hover {
 background-color:inherit;
-color: rgb(1, 1, 1);
+color: #803f27;
 text-decoration:underline;
 font-weight: 900;
 transition-duration: 800ms;
