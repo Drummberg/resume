@@ -98,16 +98,21 @@ body {
 }
 .projects-text-link:hover{
   color: #fb6d3a;
+  transition-duration: 500ms;
+  
 }
 
 .link{
   text-decoration:underline;
   text-transform:capitalize;
   color: rgb(66, 61, 85);
+  
 }
 
 .link:hover{
   color:#fb6d3a;
+  transition-duration: 500ms;
+  
 }
 .projects-text-bracket {
   font-style: normal;
